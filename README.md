@@ -1,0 +1,2 @@
+# The-Amazing-Spider-Plan-HW5
+As a developer I have been tasked with creating a simple calendar application. The application allows the user to save events for each hour of the day, and will operate in the browser featuring dynamically updated HTML and CSS powered by jQuery. Through the use of the Moment library one can achieve a functional and effective application to help users manage their time.
