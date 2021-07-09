@@ -5,11 +5,13 @@ var storage = localStorage.getItem("savedEvent");
 
 $("#currentDay").text(todayDate.format("MMM Do, YYYY"));
 
-var container = $(".container")[0];
+/* var container = $(".container")[0];
+console.log(container);  */
 
-console.log(container);
 
-$(document).ready(function () {
+
+
+/* $(document).ready(function () {
   for (var hour = 9; hour <= 17; hour++) {
     $(`.container`).append(
       `<section>
@@ -32,17 +34,9 @@ $(document).ready(function () {
     );
   }
 
- var saveButton = $("#saveButton");
+  var saveButton = $("#saveButton");
 
- function saveEvent(){
-   /* this is where the local storage information will go. */
- localStorage.setItem("savedEvent", storage);
- 
- 
+  function saveEvent() {
   }
- saveButton.click(saveEvent)
-
-
-
-
-});
+  saveButton.click(saveEvent);
+}); */
