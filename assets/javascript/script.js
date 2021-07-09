@@ -5,11 +5,22 @@ var storage = localStorage.getItem("savedEvent");
 
 $("#currentDay").text(todayDate.format("MMM Do, YYYY"));
 
+var saveButtonEl = $(".saveBtn");
+
+function storeEvent(){
+/* Local storage code to be inserted here. */
+};
+
+saveButtonEl.click(storeEvent);
+
+
+
+
+
+
+
 /* var container = $(".container")[0];
 console.log(container);  */
-
-
-
 
 /* $(document).ready(function () {
   for (var hour = 9; hour <= 17; hour++) {
