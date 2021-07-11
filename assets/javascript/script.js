@@ -1,3 +1,13 @@
+$(document).ready(function () {
+  var saveButtonEl = $(".saveBtn");
+
+saveButtonEl.on("click",function(){
+  var value = saveButtonEl.siblings(".description").val()
+  console.log(value);
+  var time = $(this).parent().attr("class");
+  console.log(time);
+})
+
 console.log("this is just a test");
 var todayDate = moment(); /* created a var to hold present moment */
 /* slecting id of current */
@@ -5,19 +15,20 @@ var storage = localStorage.getItem("savedEvent");
 
 $("#currentDay").text(todayDate.format("MMM Do, YYYY"));
 
-var saveButtonEl = $(".saveBtn");
 
-function storeEvent(){
-/* Local storage code to be inserted here. */
+
+/* function storeEvent(event){
+ Local storage code to be inserted here. 
+console.log(event.target.id);
 };
 
-saveButtonEl.click(storeEvent);
+saveButtonEl.click(storeEvent); */
 
 
 
 
 
-
+})
 
 /* var container = $(".container")[0];
 console.log(container);  */
