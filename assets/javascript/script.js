@@ -2,9 +2,9 @@ $(document).ready(function () {
   var saveButtonEl = $(".saveBtn");
 
 saveButtonEl.on("click",function(){
-  var value = saveButtonEl.siblings(".description").val()
+  var value = $(this).siblings(".description").val()
   console.log(value);
-  var time = $(this).parent().attr("class");
+  var time = $(this).parent().attr("id");
   console.log(time);
 })
 
